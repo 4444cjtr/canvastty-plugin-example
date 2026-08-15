@@ -1,0 +1,30 @@
+{
+  "apiVersion": 1,
+  "id": "com.example.plugin",
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example of a working plugin for plugin indexing",
+  "author": "4444cjtr",
+  "homepage": "https://github.com/4444cjtr/canvastty-plugin-example",
+  "permissions": [],
+  "platforms": [
+    "canvastty"
+  ],
+  "contributions": [
+    {
+      "id": "example-gif",
+      "kind": "canvas-app",
+      "title": "Example",
+      "description": "Shows an example GIF in the workspace.",
+      "entry": "app.html",
+      "defaultSize": {
+        "width": 480,
+        "height": 320
+      },
+      "minSize": {
+        "width": 320,
+        "height": 220
+      }
+    }
+  ]
+}
